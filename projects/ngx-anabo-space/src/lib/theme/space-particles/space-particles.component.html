@@ -1,0 +1,14 @@
+<div class="space-wrapper" [style.height.px]="height" [style.width.px]="width">
+  
+  <canvas
+    #canvas
+    class="particles-canvas"
+    (mousemove)="onMouseMove($event)"
+    (mouseleave)="onMouseLeave()"
+  ></canvas>
+
+  <!-- Content slot - anything inside the component tag renders here -->
+  <div class="content-slot">
+    <ng-content>{{centerText}}</ng-content>
+  </div>
+</div>

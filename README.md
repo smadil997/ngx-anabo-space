@@ -290,7 +290,7 @@ type SpaceColor =
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/ngx-anabo-bg.git
+git clone https://github.com/smadil997/ngx-anabo-space
 cd ngx-anabo-bg
 
 # Install dependencies
@@ -333,4 +333,4 @@ npm publish
 
 ## License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Adil](https://github.com/smadil997/ngx-anabo-space)
